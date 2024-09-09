@@ -1,19 +1,16 @@
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
@@ -26,19 +23,24 @@
   padding-bottom: 2%;
 }
 
+#top_card {
+  width: 40%;
+}
+
 .card {
   text-align: center;
   padding: 25px;
   border: 1px rgb(78, 77, 77) solid;
   margin: 20px auto;
-  background-color: rgb(227, 255, 255);
+  background: rgb(201,201,201);
+  background: radial-gradient(circle, rgba(201,201,201,1) 40%, rgba(186,255,208,1) 100%);
   width: 50%;
   border-radius: 15px;
   box-shadow: 6px 6px 3px rgb(49, 140, 170);
 }
 
 .image_center {
-  box-shadow: 3px 3px 3px rgb(126, 200, 224);
+  box-shadow: 3px 3px 3px rgb(3, 114, 151);
   border: 5x black solid;
   display: block;
   margin-left: auto;
@@ -69,6 +71,10 @@ p {
   background-color: rgb(112, 140, 165);
   border-radius: 8px;
   padding: 10px;
+}
+
+#icon_list {
+  width: 40%
 }
 
 #link:hover {
