@@ -31,7 +31,8 @@
   padding: 25px;
   border: 1px rgb(78, 77, 77) solid;
   margin: 20px auto;
-  background-color: rgb(59, 155, 155);
+  background: rgb(109,137,154);
+  background: radial-gradient(circle, rgba(109,137,154,1) 26%, rgba(10,161,128,1) 78%);
   width: 50%;
   border-radius: 15px;
   box-shadow: 6px 6px 3px rgb(49, 140, 170);
